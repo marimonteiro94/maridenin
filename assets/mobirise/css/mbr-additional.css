@@ -2027,3 +2027,30 @@ body {
 .cid-rTIKT1IJfH .media-container-row .row-copirayt p {
   width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .posicao-titulo{
+    top: -150px;
+  }
+
+  .posicao-links{
+    top: 200px;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+  .posicao-titulo{
+    top: -200px;
+
+  }
+
+  .tamanho-titulo {
+    font-size: 8rem !important;
+  }
+
+  .posicao-links{
+    top: -200px;
+  }
+
+}
