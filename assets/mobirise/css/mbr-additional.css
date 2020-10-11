@@ -33,6 +33,14 @@ margin-bottom: 2em !important;
   text-shadow:3px 3px 5px #151515;
   font-size: 8rem;
 }
+
+.titulo-lancamento {
+  font-family: 'carrousel';
+  text-shadow:3px 3px 5px #151515;
+  font-size: 5rem;
+  line-height: 6rem !important;
+}
+
 .display-1 > .mbr-iconfont {
   font-size: 12.8rem;
 }
@@ -1384,6 +1392,10 @@ body {
 }
 .cid-rTIBj3NKlA {
   background-image: url("../../../assets/images/capa-para-site-2-2000x1125.jpg");
+}
+
+.lancamento {
+  background-image: url("../../../assets/images/capa-para-site-sociedade-dopada-2000x1125.jpg");
 }
 .cid-rTILqet0uH {
   padding-top: 60px;
