@@ -2030,11 +2030,11 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .posicao-titulo{
-    top: -150px;
+    top: -50px;
   }
 
   .posicao-links{
-    top: 200px;
+    top: 100px;
   }
 
 }

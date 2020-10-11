@@ -1,9 +1,7 @@
 @font-face {
    font-family: 'Goeslim-Regular';
    src: url('Goeslim-Regular/font.ttf');
-}
 
-@font-face {
-font-family: 'carrousel';
-src: url('Carrousel/CARROUSEL.TTF');
+   font-family: 'carrousel';
+   src: url('Carrousel/CARROUSEL.TTF');
 }
