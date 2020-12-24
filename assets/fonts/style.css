@@ -1,8 +1,9 @@
 @font-face {
    font-family: 'goeslim';
    font-display: swap;
-   src: url('Goeslim/GOESLIM.TTF')
-   format('truetype');
+   src: url('Goeslim/GOESLIM.TTF');
+   src: url('Goeslim/Goeslim-Regular.otf');
+   src: url('Goeslim/Goeslim-Regular.ttf') format('truetype');
 
    font-family: 'carrousel';
    font-display: swap;
