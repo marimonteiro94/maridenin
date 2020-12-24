@@ -1,15 +1,15 @@
 @font-face {
-   font-family: 'carrousel';
-   font-display: swap;
-   src: url('Carrousel/CARROUSEL.TTF');
+  font-family: 'carrousel';
+  font-display: swap;
+  src: url('Carrousel/CARROUSEL.TTF');
 
-   font-family: 'amarillo';
-   font-display: swap;
-   src: url('Amarillo/AMARILLO.TTF');
+  font-family: 'amarillo';
+  font-display: swap;
+  src: url('Amarillo/AMARILLO.TTF');
 
-   font-family: 'goeslim';
-   font-display: swap;
-   src: url('Goeslim/GOESLIM.TTF');
-   src: url('Goeslim/Goeslim-Regular.otf');
-   src: url('Goeslim/Goeslim-Regular.ttf') format('truetype');
+  font-family: 'goeslim';
+  font-display: swap;
+  src: url('Goeslim/GOESLIM.TTF');
+  src: url('Goeslim/Goeslim-Regular.otf');
+  src: url('Goeslim/Goeslim-Regular.ttf') format('truetype');
 }
