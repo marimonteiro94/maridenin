@@ -1,7 +1,8 @@
 @font-face {
    font-family: 'goeslim';
    font-display: swap;
-   src: url('Goeslim/GOESLIM.TTF');
+   src: url('Goeslim/GOESLIM.TTF')
+   format('truetype');
 
    font-family: 'carrousel';
    font-display: swap;
