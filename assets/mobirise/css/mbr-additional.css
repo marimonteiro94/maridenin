@@ -135,6 +135,7 @@ margin-bottom: 2em !important;
   transition: all 0.3s ease-in-out;
   padding: 0.7rem 3rem;
   border-radius: 3px;
+  min-width: 250px;
 }
 .btn-lg {
   font-weight: 500;
@@ -1397,6 +1398,9 @@ body {
 .lancamento {
   background-image: url("../../../assets/images/capa-para-site-sociedade-dopada-2000x1125.jpg");
 }
+.capa-nosso-jeito-de-amar {
+  background-image: url("../../../assets/images/capa-para-site-nosso-jeito-de-amar-2-2000x1125.jpg");
+}
 .cid-rTILqet0uH {
   padding-top: 60px;
   padding-bottom: 15px;
@@ -2051,6 +2055,13 @@ body {
 
   .posicao-links{
     top: -200px;
+  }
+
+}
+
+@media (min-width:1440px) {
+  .titulo-nosso-jeito-de-amar {
+    font-size: 4rem !important;
   }
 
 }
