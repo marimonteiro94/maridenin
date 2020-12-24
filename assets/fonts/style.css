@@ -1,10 +1,13 @@
 @font-face {
    font-family: 'goeslim';
+   font-display: swap;
    src: url('Goeslim/Goeslim.ttf');
 
    font-family: 'carrousel';
+   font-display: swap;
    src: url('Carrousel/CARROUSEL.TTF');
 
    font-family: 'amarillo';
+   font-display: swap;
    src: url('Amarillo/AMARILLO.TTF');
 }
