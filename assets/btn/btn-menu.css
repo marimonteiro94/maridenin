@@ -21,7 +21,7 @@ li {
   top: 24px;
   width: 56px;
   right:1rem;
-  z-index: 90000;
+  z-index: 1;
 }
 
 /* Styles for the menu */
