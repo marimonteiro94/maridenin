@@ -1578,7 +1578,7 @@ body {
   min-height: 77px;
 }
 .cid-rTIGh7qUQ3 .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #fffffff0;
 }
 .cid-rTIGh7qUQ3 a {
   font-style: normal;
@@ -1886,6 +1886,7 @@ body {
   .cid-rTIGh7qUQ3 .navbar-collapse.collapsing,
   .cid-rTIGh7qUQ3 .navbar-collapse.show {
     display: block !important;
+    margin-top: -2rem;
   }
   .cid-rTIGh7qUQ3 .navbar-collapse.collapsing .navbar-nav,
   .cid-rTIGh7qUQ3 .navbar-collapse.show .navbar-nav {
@@ -2063,4 +2064,19 @@ body {
     font-size: 4rem !important;
   }
 
+}
+ /*vlibras*/
+[vw] [vw-access-button] .access-button {
+    padding-top: 23rem;
+}
+
+/*hamburger menu mobile fixo */
+.cid-rTIGh7qUQ3 button.navbar-toggler .hamburger span {
+    background-color: #cacaca;
+}
+
+@media (min-width:1024px){
+  .hidden-lg {
+    display: none;
+  }
 }

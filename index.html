@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="assets/gallery/style.css">
   <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/btn/btn-menu.css">
 
   <style>
   @font-face {
@@ -45,19 +46,43 @@
 <body>
 
 <div vw class="enabled">
-    <div vw-access-button class="active" aria-label="Tradutor em libras"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
-    </div>
+  <div vw-access-button class="active" aria-label="Tradutor em libras"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
   </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
 
   <section class="menu cid-rTIGh7qUQ3" once="menu" id="menu1-2">
+    <!--MENU FLUTUANTE --------------------------------------------------------->
+    <!-- This is your menu -->
+    <menu class="menu-fly  display-4">
+      <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+        <li class="navbar-caption-wrap"><a class="navbar-caption text-secondary titulo-menu-fly" href="https://www.maridenin.com.br">Mari Denin</a></li>
+        <li class="nav-item"><a class="nav-link link display-4 link-menu-fly" href="#biografia">Biografia</a></li>
+        <li class="nav-item"><a class="nav-link link display-4 link-menu-fly" href="#gallery1-c">Apresentações</a></li>
+        <li class="nav-item"><a class="nav-link link display-4 link-menu-fly" href="#social-buttons3-a">Agenda</a></li>
+        <li class="nav-item"><a class="nav-link link display-4 link-menu-fly" href="#content4-b">Contato</a></li>
+      </ul>
 
-      <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
+    </menu>
+
+    <!-- This is your menu button -->
+    <!-- It's loaded in the HTML after the menu -->
+      <nav class="menu-btn-fly" id="menu-fly">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+      <!--/MENU FLUTUANTE ------------------------------------------------------->
+
+
+      <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm bg-color transparent">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir/Fechar menu">
             <div class="hamburger">
                 <span></span>
@@ -75,13 +100,12 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                <li class="nav-item"><a class="nav-link link text-white display-4" href="#biografia">Biografia</a></li>
-                <li class="nav-item"><a class="nav-link link text-white display-4" href="#gallery1-c">Apresentações</a></li>
-                <li class="nav-item"><a class="nav-link link text-white display-4" href="#social-buttons3-a">Agenda</a></li>
-
-                        <li class="nav-item"><a class="nav-link link text-white display-4" href="#content4-b">
-
-                        Contato</a></li></ul>
+              <li class="navbar-caption-wrap hidden-lg"><a class="navbar-caption text-secondary titulo-menu-fly" href="https://www.maridenin.com.br">Mari Denin</a></li>
+              <li class="nav-item"><a class="nav-link link link-menu display-4" href="#biografia">Biografia</a></li>
+              <li class="nav-item"><a class="nav-link link link-menu display-4" href="#gallery1-c">Apresentações</a></li>
+              <li class="nav-item"><a class="nav-link link link-menu display-4" href="#social-buttons3-a">Agenda</a></li>
+              <li class="nav-item"><a class="nav-link link link-menu display-4" href="#content4-b">Contato</a></li>
+            </ul>
 
         </div>
     </nav>
@@ -313,6 +337,8 @@ Seu primeiro lançamento oficial é o single “Sociedade Dopada”, composiçã
 <section once="" class="cid-rTIKT1IJfH mbr-reveal" id="footer7-5">
 
 
+
+
     <div class="container">
         <div class="media-container-row align-center mbr-white">
             <div class="row row-links">
@@ -377,6 +403,7 @@ Seu primeiro lançamento oficial é o single “Sociedade Dopada”, composiçã
   <script src="assets/gallery/player.min.js"></script>
   <script src="assets/gallery/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
+  <script src="assets/btn/btn-menu.js"></script>
 
 
   <input name="animation" type="hidden">

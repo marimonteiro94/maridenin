@@ -1,0 +1,105 @@
+/* This just resets the styles of our unordered list that makes our hamburger/hotdog icon */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+
+/* Styles for the menu button */
+.menu-btn-fly {
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+  cursor: pointer;
+  height: 56px;
+  position: fixed;
+  top: 24px;
+  width: 56px;
+  right:1rem;
+  z-index: 90000;
+}
+
+/* Styles for the menu */
+.menu-fly {
+  background-color: #fffffff0;
+  right:0;
+  margin: 0;
+  padding: 32px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 90000;
+
+  transform: translate3d(0, -100%, 0);
+  transition: transform .2s linear;
+}
+
+.link-menu-fly {
+  color:#797979 !important;
+}
+
+@media (min-width:320px) {
+.link-menu {
+  color:#797979 !important;
+}
+}
+
+@media (min-width:1024px) {
+.link-menu {
+  color:#ffffff !important;
+}
+}
+
+.titulo-menu-fly {
+  font-family:'goeslim' !important;
+  font-size:3em;
+  font-weight: 700;
+  justify-content: center !important;
+  display: flex;
+  align-items: center;
+}
+
+/* Creating the hamburger/hotdog icon in CSS */
+.menu-btn-fly li {
+  background-color: #797979;
+  bottom: 0;
+  height: 2px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 16px;
+  top: 0;
+  transition: all .3s ease-in-out;
+}
+
+/* The following two lines set the three lines of our hamburger/hotdog icon apart */
+.menu-btn-fly li:first-child {
+  transform: translate3d(0, -4px, 0);
+}
+
+.menu-btn-fly li:last-child {
+  transform: translate3d(0, 4px, 0);
+}
+
+/* We're now in the animation territory. These are the classes you toggle on with our Javascript function. */
+.menu-btn-fly--on li:first-child {
+  transform: rotate(135deg) translate3d(0, 0, 0);
+}
+
+.menu-btn-fly--on li:last-child {
+  transform: rotate(-135deg) translate3d(0, 0, 0);
+}
+
+.menu-btn-fly--on li:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-fly--open {
+  transform: translate3d(0, 0, 0);
+}
